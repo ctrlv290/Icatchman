@@ -1,0 +1,20 @@
+{
+  "pharmcle": {
+    "dbConfig": {
+      "host": "localhost",
+      "port": 3306,
+      "dbName": "zaps-rms",
+      "user": "root",
+      "pass": "manager",
+      "dialect":"mysql"
+    },
+    "mqtt": {
+      "host":"mqtt://localhost",
+      "sub_prefix": "application",
+      "pub_prefix": "application",
+      "decode_prefix": "decoded"
+    },
+    "interval_limit": 30,
+    "time_adjust_condition": 30
+  }
+}

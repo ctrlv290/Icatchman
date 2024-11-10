@@ -1,0 +1,13 @@
+{
+    "time_differ": 9,
+    "interval_limit" : 30,
+    "mqtt": {
+      "host":"localhost",
+      "port":1883,
+     "username":"",
+     "password":"",
+      "sub_prefix": "application",
+      "pub_prefix": "application",
+      "decode_prefix": "decoded"
+    }
+}
